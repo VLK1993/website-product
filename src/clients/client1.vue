@@ -1,30 +1,33 @@
 <template>
     <div class="Container">
-        <h1> CLIENT 1</h1>
+        <div class="section">
+        <h1> YES VIBRATOR</h1>
         <div class="btnCont">
             <div data-button= 'face' class="btn" v-on:click='toggleActive'>Face</div>
             <div data-button= 'glasses' class="btn" v-on:click='toggleActive'>Glasses</div>
             <div data-button= 'coat' class="btn" v-on:click='toggleActive' >Coat</div>
-            <div data-button= 'arm' class="btn" v-on:click='toggleActive'>Arm</div>
+
+
         </div>
         <div class="imgCont">
         
                 <img class="face above3" src="./client_img/client1/face/face1.png" >
                 <img class="face above3 active" src="./client_img/client1/face/face2.png">
+                <img class="face above3 active" src="./client_img/client1/face/wet.png">
 
                 <img class="glasses above3 active" src="./client_img/client1/glasses/glasses.png">
                 <img class="glasses above2 multiply active" src="./client_img/client1/glasses/glasses-shadow.png">
 
             
-                <img class="arm above3 " src="./client_img/client1/arm/arm1.png">
-                <img class="arm above3 active" src="./client_img/client1/arm/arm2.png">
-                <img class="arm above2 multiply active" src="./client_img/client1/arm/arm2-shadow.png">
+                <img class="arm above3 active" src="./client_img/client1/arm/arm1.png">
+
             
                 <img class="above2 coat hard-light active" src="./client_img/client1/coat/coat.png">
                 <img class="active above coat multiply" src="./client_img/client1/coat/coat-shadow.png" alt="">
 
-            <img class="default" src="./client_img/client1/default.png" alt="">
+            <img class="default" src="./client_img/client1/default2.png" alt="">
              
+        </div>
         </div>
 
     </div>
@@ -34,16 +37,15 @@ export default {
     methods:{
         toggleActive: function(event){
             var buttonValue = event.target.dataset.button;
+            var currentSection = event.target.parentNode.parentNode;
+            console.log(currentSection);
             
+            var activeValue = currentSection.getElementsByClassName(buttonValue);
             
-            var activeValue = document.getElementsByClassName(buttonValue);
-            
-
-            
-            activeValue[0].classList.toggle("active");
-            activeValue[1].classList.toggle("active");
-            
-
+            var i;
+            for (i=0; i< buttonValue.length - 1; i++) {
+                activeValue[i].classList.toggle("active");
+            }
         }
 
     }
