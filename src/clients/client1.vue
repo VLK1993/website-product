@@ -1,6 +1,7 @@
 <template>
     <div class="Container">
         <div class="section">
+            <!--FACE, GLASSES, COAT -->
         <h1> YES VIBRATOR</h1>
         <div class="btnCont">
             <div data-button= 'face' class="btn" v-on:click='toggleActive'>Face</div>
@@ -29,23 +30,54 @@
              
         </div>
         </div>
+        <div class="section">
+        <h1> NO VIBRATOR</h1>
+        <div class="btnCont">
+            <div data-button= 'arm' class="btn" v-on:click='toggleActive'>Arm</div>
+            <div data-button= 'glasses' class="btn" v-on:click='toggleActive'>Glasses</div>
+            <div data-button= 'coat' class="btn" v-on:click='toggleActive' >Coat</div>
 
+
+        </div>
+        <div class="imgCont">
+            <!--ARM, GLASSES, COAT -->
+                <img class="face above3 active" src="./client_img/client1/face/face1.png" >
+
+                <img class="glasses above3 active" src="./client_img/client1/glasses/glasses.png">
+                <img class="glasses above2 multiply active" src="./client_img/client1/glasses/glasses-shadow.png">
+
+                <img class="arm above3 " src="./client_img/client1/arm/arm2.png">
+                <img class="arm above2 multiply" src="./client_img/client1/arm/arm2-shadow.png">
+                <img class="arm above3 active" src="./client_img/client1/arm/arm1.png">
+                
+            
+                <img class="above2 coat hard-light active" src="./client_img/client1/coat/coat.png">
+                <img class="active above coat multiply" src="./client_img/client1/coat/coat-shadow.png" alt="">
+
+            <img class="default" src="./client_img/client1/default.png" alt="">
+             
+        </div>
+        </div>
     </div>
 </template>
 <script>
 export default {
     methods:{
         toggleActive: function(event){
+            /* toggleActive only active yes no */
             var buttonValue = event.target.dataset.button;
             var currentSection = event.target.parentNode.parentNode;
+            /*ONLY SELECT FROM THAT SECTION*/
             console.log(currentSection);
             
             var activeValue = currentSection.getElementsByClassName(buttonValue);
-            
-            var i;
-            for (i=0; i< buttonValue.length - 1; i++) {
+        
+         var i;
+            for (i=0; i < activeValue.length ; i++) {
                 activeValue[i].classList.toggle("active");
+                
             }
+
         }
 
     }
