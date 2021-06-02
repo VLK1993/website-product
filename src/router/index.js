@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import client1 from '../clients/client1.vue'
+import client1 from '../clients/client1/client1.vue'
+import client2 from '../clients/client2/client2.vue'
 const routes = [
   {
     path: '/',
@@ -11,6 +12,11 @@ const routes = [
     path: '/client1',
     name: 'Client1',
     component: client1
+  },
+  {
+    path: '/client2',
+    name: 'Client2',
+    component: client2
   }
 ]
 

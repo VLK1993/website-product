@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <p>This was made possible by Wix, nah.</p>
+    <p>Coded by Okiteru</p>
     <img alt="Vue logo" src="../assets/logo.png">
-    <p>Hi, i draw for money</p>
+    
   </div>
 </template>
 

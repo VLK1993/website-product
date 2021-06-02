@@ -2,7 +2,8 @@
   <div>
     <div id="nav">
       <router-link to="/"><div class="navBtn">Homie</div></router-link>
-      <router-link to="/client1"><div class="navBtn">Client1</div></router-link>
+      
+      <router-link to="/client2"><div class="navBtn">Client2</div></router-link>
     </div>
       <router-view/>
     

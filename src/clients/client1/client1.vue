@@ -12,21 +12,21 @@
         </div>
         <div class="imgCont">
         
-                <img class="face above3" src="./client_img/client1/face/face1.png" >
-                <img class="face above3 active" src="./client_img/client1/face/face2.png">
-                <img class="face above3 active" src="./client_img/client1/face/wet.png">
+                <img class="face above3" src="./client_img/face/face1.png" >
+                <img class="face above3 active" src="./client_img/face/face2.png">
+                <img class="face above3 active" src="./client_img/face/wet.png">
 
-                <img class="glasses above3 active" src="./client_img/client1/glasses/glasses.png">
-                <img class="glasses above2 multiply active" src="./client_img/client1/glasses/glasses-shadow.png">
-
-            
-                <img class="arm above3 active" src="./client_img/client1/arm/arm1.png">
+                <img class="glasses above3 active" src="./client_img/glasses/glasses.png">
+                <img class="glasses above2 multiply active" src="./client_img/glasses/glasses-shadow.png">
 
             
-                <img class="above2 coat hard-light active" src="./client_img/client1/coat/coat.png">
-                <img class="active above coat multiply" src="./client_img/client1/coat/coat-shadow.png" alt="">
+                <img class="arm above3 active" src="./client_img/arm/arm1.png">
 
-            <img class="default" src="./client_img/client1/default2.png" alt="">
+            
+                <img class="above2 coat hard-light active" src="./client_img/coat/coat.png">
+                <img class="active above coat multiply" src="./client_img/coat/coat-shadow.png" alt="">
+
+            <img class="default" src="./client_img/default2.png" alt="">
              
         </div>
         </div>
@@ -41,20 +41,20 @@
         </div>
         <div class="imgCont">
             <!--ARM, GLASSES, COAT -->
-                <img class="face above3 active" src="./client_img/client1/face/face1.png" >
+                <img class="face above3 active" src="./client_img/face/face1.png" >
 
-                <img class="glasses above3 active" src="./client_img/client1/glasses/glasses.png">
-                <img class="glasses above2 multiply active" src="./client_img/client1/glasses/glasses-shadow.png">
+                <img class="glasses above3 active" src="./client_img/glasses/glasses.png">
+                <img class="glasses above2 multiply active" src="./client_img/glasses/glasses-shadow.png">
 
-                <img class="arm above3 " src="./client_img/client1/arm/arm2.png">
-                <img class="arm above2 multiply" src="./client_img/client1/arm/arm2-shadow.png">
-                <img class="arm above3 active" src="./client_img/client1/arm/arm1.png">
+                <img class="arm above3 " src="./client_img/arm/arm2.png">
+                <img class="arm above2 multiply" src="./client_img/arm/arm2-shadow.png">
+                <img class="arm above3 active" src="./client_img/arm/arm1.png">
                 
             
-                <img class="above2 coat hard-light active" src="./client_img/client1/coat/coat.png">
-                <img class="active above coat multiply" src="./client_img/client1/coat/coat-shadow.png" alt="">
+                <img class="above2 coat hard-light active" src="./client_img/coat/coat.png">
+                <img class="active above coat multiply" src="./client_img/coat/coat-shadow.png" alt="">
 
-            <img class="default" src="./client_img/client1/default.png" alt="">
+            <img class="default" src="./client_img/default.png" alt="">
              
         </div>
         </div>
@@ -70,20 +70,20 @@
         </div>
         <div class="imgCont">
             <!--ARM, GLASSES, COAT -->
-                <img class="face above3 active" src="./client_img/client1/face/face1.png" >
+                <img class="face above3 active" src="./client_img/face/face1.png" >
 
-                <img class="glasses above3 active" src="./client_img/client1/glasses/glasses.png">
-                <img class="glasses above2 multiply active" src="./client_img/client1/glasses/glasses-shadow.png">
+                <img class="glasses above3 active" src="./client_img/glasses/glasses.png">
+                <img class="glasses above2 multiply active" src="./client_img/glasses/glasses-shadow.png">
 
-                <img class="arm above3 " src="./client_img/client1/arm/arm2.png">
-                <img class="arm above2 multiply" src="./client_img/client1/arm/arm2-shadow.png">
-                <img class="arm above3 active" src="./client_img/client1/arm/arm1.png">
+                <img class="arm above3 " src="./client_img/arm/arm2.png">
+                <img class="arm above2 multiply" src="./client_img/arm/arm2-shadow.png">
+                <img class="arm above3 active" src="./client_img/arm/arm1.png">
                 
             
-                <img class="above2 coat hard-light active" src="./client_img/client1/coat/coat.png">
-                <img class="active above coat multiply" src="./client_img/client1/coat/coat-shadow.png" alt="">
+                <img class="above2 coat hard-light active" src="./client_img/coat/coat.png">
+                <img class="active above coat multiply" src="./client_img/coat/coat-shadow.png" alt="">
 
-            <img class="default" src="./client_img/client1/default3.png" alt="">
+            <img class="default" src="./client_img/default3.png" alt="">
              
         </div>
         </div>
